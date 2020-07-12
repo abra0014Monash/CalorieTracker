@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CaloriesTracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Activity_label">Select level of activity</string>
+    <string-array name="Activity_level">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+    </string-array>
+    <string name="Food_Category_label">Select Food Category</string>
+    <string-array name="Food_Category">
+        <item>Fruit</item>
+        <item>Vegetable</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Fast Food</item>
+        <item>Bread</item>
+        <item>Beverages</item>
+        <item>Nuts</item>
+    </string-array>
+</resources>

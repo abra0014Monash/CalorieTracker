@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/textview1"
+            android:textSize = "20dp"
+            android:layout_alignParentTop = "true"
+            android:layout_centerHorizontal = "true" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/textview2"
+            android:textSize = "20dp"
+            android:layout_alignParentTop = "true"
+            android:layout_centerHorizontal = "true" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/fitness" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/tv_showGoal"
+            android:textSize = "20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop = "true"
+            android:layout_centerHorizontal = "true" />
+
+        <EditText android:id="@+id/input_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="set Calorie goal" />
+
+        <Button
+            android:id="@+id/button_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Goal" />
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Goal" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
